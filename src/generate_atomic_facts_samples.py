@@ -180,7 +180,7 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate responses using LLM")
     parser.add_argument("--dataset", type=str, default="bios", help="Dataset for LLM")
-    parser.add_argument("--model_name", type=str, default="llama3-8b-instruct", help="Model name")
+    parser.add_argument("--model_name", type=str, default="qwen2-32b-instruct", help="Model name")
     parser.add_argument("--debug", action='store_true', help="Run in debug mode")
     args = parser.parse_args()
     main(args)

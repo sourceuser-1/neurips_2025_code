@@ -17,7 +17,7 @@
 ``` ./run_entailment.sh [model] [dataset] ```
 
 # Get the graph based uncertainty score
-``` ./run_calc_dissim.sh MODEL "batch_alignment_cost_entailment" bios longfact wildhallu ```
+``` ./run_calc_dissim.sh [model] "batch_alignment_cost_entailment" [dataset] ```
 
 
 # Calibration 

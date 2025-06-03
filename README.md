@@ -23,7 +23,7 @@ python vllm_fact_check.py --dataset bios --model_name [model]
 # Calibration 
 ./run_calibration_ours.sh [model] [dataset]
 
-# Possible models
+# Possible models and datasets
 [model] can be :
 qwen2-57b-instruct
 qwen2-7b-instruct

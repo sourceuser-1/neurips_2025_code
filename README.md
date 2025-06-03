@@ -25,7 +25,7 @@
 
 # Possible models and datasets
 [model] can be :
-qwen2-57b-instruct
+qwen2-57b-instruct 
 qwen2-7b-instruct
 mistral-7b-instruct
 falcon-7b-instruct

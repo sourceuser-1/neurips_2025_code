@@ -1,7 +1,7 @@
 # Run the following steps sequentially to get the calibration results reported in the paper:
 
 # Generate Responses
-./run_gen_responses.sh <model> <dataset>
+./run_gen_responses.sh /<model/> /<dataset/>
 
 # Generate Atomic Facts
 ./run_gen_atomic_facts.sh <model> <dataset>
